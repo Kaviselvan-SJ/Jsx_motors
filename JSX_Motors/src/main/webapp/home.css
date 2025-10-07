@@ -1,0 +1,187 @@
+@charset "UTF-8";:root {
+        --darker: #111;
+        --gray: #333;
+        --accent: #e63946;
+        --light: #f1f1f1;
+      }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: var(--darker);
+        color: white;
+        line-height: 1.6;
+      }
+
+      /* Navbar */
+      header {
+        background: black;
+        padding: 15px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+      }
+      .logo {
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+      }
+      .logo span {
+        color: var(--accent);
+      }
+      .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+      }
+      .nav-links li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s;
+      }
+      .nav-links li a:hover {
+        color: var(--accent);
+      }
+
+      /* Hero Section */
+      .hero {
+        background: url("images/hero-car.jpg") center/cover no-repeat;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+      }
+      .hero-content {
+        max-width: 750px;
+        background: rgba(0, 0, 0, 0.65);
+        padding: 40px;
+        border-radius: 12px;
+      }
+      .hero-content h1 {
+        font-size: 2.8rem;
+        margin-bottom: 15px;
+      }
+      .hero-content h1 span {
+        color: var(--accent);
+      }
+      .hero-content p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+      }
+      .btn {
+        background: var(--accent);
+        color: white;
+        padding: 12px 28px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+      .btn:hover {
+        background: #b91d2a;
+      }
+
+      /* Sections */
+      section {
+        padding: 70px 20px;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .section-title h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: var(--accent);
+      }
+
+      .about,
+      .services,
+      .brands {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+      }
+      .card {
+        background: #1a1a1a;
+        padding: 25px;
+        border-radius: 10px;
+        border: 1px solid var(--gray);
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card h3 {
+        color: var(--accent);
+        margin-bottom: 15px;
+      }
+
+      /* Footer */
+      footer {
+        background: #000;
+        padding: 40px 20px;
+        margin-top: 50px;
+      }
+      .footer-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .footer-column h4 {
+        margin-bottom: 15px;
+        color: var(--accent);
+      }
+      .footer-column ul {
+        list-style: none;
+        padding: 0;
+      }
+      .footer-column ul li {
+        margin: 8px 0;
+      }
+      .footer-column ul li a {
+        text-decoration: none;
+        color: #bbb;
+        transition: color 0.3s;
+      }
+      .footer-column ul li a:hover {
+        color: white;
+      }
+      .social-icons a {
+        margin-right: 12px;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #bbb;
+        transition: color 0.3s;
+      }
+      .social-icons a:hover {
+        color: var(--accent);
+      }
+      .footer-bottom {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 0.9rem;
+        color: #aaa;
+      }

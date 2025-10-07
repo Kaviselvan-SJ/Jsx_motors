@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedbacks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="feedbacks.xsd">
+    <feedback id="F001">
+        <name>Kavi</name>
+        <email>abc@example.com</email>
+        <subject>Great Service</subject>
+        <message>Loved the quick response!</message>
+        <rating>5</rating>
+    </feedback>
+</feedbacks>
