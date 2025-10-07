@@ -1,4 +1,4 @@
-# 🚗 JSX Motors - Online Car and Spare Parts Management System
+# 🚗 JSX Motors - Online Car and Spare Parts shop
 
 ## 📘 Objective
 JSX Motors is a web-based application that allows users to browse, search, and purchase cars and spare parts online.  
