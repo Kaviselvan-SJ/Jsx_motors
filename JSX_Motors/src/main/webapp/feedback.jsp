@@ -98,6 +98,7 @@
 				writer.println("<feedbacks></feedbacks>");
 			}
 		}
+		
 		// Handle form submission
 		if ("POST".equalsIgnoreCase(request.getMethod())) {
 			String name = request.getParameter("name");

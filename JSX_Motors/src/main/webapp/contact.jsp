@@ -96,7 +96,6 @@
     </div>
   </section>
 
-
   <!-- Footer -->
   <footer>
     <div class="footer-container">
